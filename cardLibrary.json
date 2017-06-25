@@ -1,0 +1,27 @@
+[
+  {
+    "type": "basic",
+    "front": "Who was the first president of the United States?",
+    "back": "George Washington"
+  },
+  {
+    "type": "cloze",
+    "text": "Donald Trump is the current president of the Uited States.",
+    "cloze": "Donald Trump"
+  },
+  {
+    "type": "basic",
+    "front": "Who was the democratic nominee for president in 2016?",
+    "back": "Hillary Clinton"
+  },
+  {
+    "type": "cloze",
+    "text": "Susan B Anthony was arrested for voting in the 1872 presidential election.",
+    "cloze": "Susan B Anthony"
+  },
+  {
+    "type": "basic",
+    "front": "Who won the Fight of the Century on March 8th 1971?",
+    "back": "Joe Frazier"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "flashcard_generator",
+  "version": "1.0.0",
+  "description": "Homework week 11-create new basic or cloze flashcards and then play basic or cloze flashcard review game",
+  "main": "flashcards.js",
+  "dependencies": {
+    "inquirer": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrigler/Flashcard_Generator.git"
+  },
+  "author": "mcrigler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrigler/Flashcard_Generator/issues"
+  },
+  "homepage": "https://github.com/mcrigler/Flashcard_Generator#readme"
+}

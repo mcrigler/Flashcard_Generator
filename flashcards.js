@@ -27,6 +27,8 @@
 	var round = 0;
 	var getCard;
 	var selectQuestion;
+	var correctAns = 0;
+	var wrongAns = 0; 
 
 
 //************************************************//
@@ -224,14 +226,23 @@
 				if(userAns.question === selectAnswer)
 					{
 						console.log("You are correct!");
+						correctAns++
 					}
 				else {
 					console.log("Sorry, the correct answer is " + selectAnswer)
+					wrongAns++
 					};
 				playGame();
 			});
 			
-		};
+		}
+		else {
+			console.log ("You got " + correctAns + " correct answers and  " + wrongAns + " wrong answers" );
+			round = 0;
+			correctAns = 0; 
+			wrongAns = 0;
+			mainMenu();
+		}
 
 	};
 
